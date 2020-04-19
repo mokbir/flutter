@@ -9,9 +9,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Bonjour le monde',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.orange,
       ),
-      home: MyHomePage(title: 'Accueil'),
+      home: MyHomePage(title: 'L&Es'),
     );
   }
 }
@@ -31,6 +31,12 @@ class MyHomePage extends StatelessWidget {
         child:
         Text(
           'Bonjour le monde',
+          textAlign: TextAlign.left,
+          style: TextStyle(
+            fontSize: 20,
+            color: Colors.red,
+            fontWeight: FontWeight.bold,
+          )
         ),
       ),
     );
