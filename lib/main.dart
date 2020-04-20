@@ -30,11 +30,11 @@ class MyHomePage extends StatelessWidget {
       body: Center(
         child:
         Text(
-          'Bonjour le monde',
+          'Bonjour le monde entier',
           textAlign: TextAlign.left,
           style: TextStyle(
             fontSize: 20,
-            color: Colors.red,
+            color: Colors.blue,
             fontWeight: FontWeight.bold,
           )
         ),
